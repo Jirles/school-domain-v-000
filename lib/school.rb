@@ -19,6 +19,6 @@ class School
   
   def sort 
     sorted_roster = @roster.each{|k, v| @roster[k] = v.sort}
-    sorted_roster
+    #sorted_roster
   end
 end
