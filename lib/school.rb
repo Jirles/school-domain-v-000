@@ -18,6 +18,6 @@ class School
   end
   
   def sort 
-    @roster.values.sort
+    @roster.collect{|k, v| @roster[k] = v.sort}
   end
 end
