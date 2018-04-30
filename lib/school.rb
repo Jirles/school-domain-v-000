@@ -18,10 +18,9 @@ class School
   end
   
   def sort 
-    sorted_roster = {}
     @roster.each do |k, v|
       v.sort
     end
-    sorted_roster
+    @roster
   end
 end
