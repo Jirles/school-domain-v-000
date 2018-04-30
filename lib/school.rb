@@ -18,6 +18,10 @@ class School
   end
   
   def sort 
-    @roster.min 
+    sorted_roster = {}
+    @roster.each do |k, v|
+      
+    end
+    sorted_roster
   end
 end
